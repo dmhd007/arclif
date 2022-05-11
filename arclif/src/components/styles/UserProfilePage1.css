@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  margin: 1rem;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav span {
+  margin: 0 1rem;
+}
+
+nav a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #000000;
+  margin: 0 0.5rem;
+}
+
+nav #selected {
+  color: #218897;
+}
+
+#second {
+  width: 70vw;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+#second hr {
+  width: 259px;
+  height: 2px;
+  background: #f7f4f4;
+}
+
+#second p,
+#third p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.detailsInput {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailsInput input {
+  margin: 1rem 0.5rem;
+  width: 350px;
+  height: 60px;
+  background: #efefef;
+  border-radius: 11px;
+  border: none;
+  outline: none;
+  text-indent: 20px;
+}
+
+.detailsInput input:focus,
+input:active {
+  border: none;
+  outline: none;
+}
+
+#third {
+  width: 60vw;
+}
+
+#third span {
+  display: flex;
+  align-items: center;
+}
+
+#third p {
+  margin-right: 0.5rem;
+}
+
+#third hr {
+  width: 395px;
+  height: 2px;
+  background: #f7f4f4;
+}
+
+#imageUpload {
+  display: flex;
+  align-items: center;
+}
+
+.addButton {
+  width: 227px;
+  height: 196px;
+  border: 1px solid #1a9977;
+  border-radius: 11px;
+  margin: 0 4rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 60px;
+  background: linear-gradient(270deg, #027888 5.03%, #1c9c76 91.27%);
+  border-radius: 11px;
+  border: none;
+  outline: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.paraBtn {
+  margin: 0 6rem;
+  color: #ffffff;
+}
+.upload button:focus,
+button:active {
+  border: none;
+  outline: none;
+}
